@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/logintext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="혈중 알코올 농도 측정"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <CheckBox
+            android:id="@+id/Man"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@color/material_dynamic_neutral_variant90"
+            android:text="남자"
+            />
+
+        <CheckBox
+            android:id="@+id/Woman"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@color/material_dynamic_neutral_variant90"
+            android:text="여자"
+            />
+
+        <EditText
+            android:id="@+id/Weight"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@color/material_dynamic_neutral_variant90"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:hint="몸무게 (Kg)"
+            />
+
+        <EditText
+            android:id="@+id/Hegiht"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@color/material_dynamic_neutral_variant90"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:hint="신장 (Cm)"
+            />
+
+        <EditText
+            android:id="@+id/Volume"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@color/material_dynamic_neutral_variant90"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:hint="알코올 도수 (%)"
+            />
+
+        <EditText
+            android:id="@+id/Amount"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@color/material_dynamic_neutral_variant90"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:hint="마신 양 (ml)" />
+
+        <Button
+            android:id="@+id/Test_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:text="Test"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Bac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:text="혈중 알코올 농도 : "
+            />
+
+        <TextView
+            android:id="@+id/Metaboltime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:text="예상 알코올 분해시간 : "
+            />
+
+        <TextView
+            android:id="@+id/Informatoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="19dp"
+            android:textColor="@color/black"
+            android:text="잠깐, 지금 상태로 운전대를 잡으시려구요?"
+            />
+
+        <Button
+            android:id="@+id/Gophoto"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:text="처벌 수위 살펴보기"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Table"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:text="각 주류별 도수 확인하기"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>
